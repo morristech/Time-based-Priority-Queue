@@ -43,9 +43,6 @@ public class PriorityQueue {
             if(line.contains("priority")) continue;
             String[] array = line.split(",");
             Task t;
-//            String date = array[1].replace("\"", "");
-//            System.out.println(date);
-//            System.out.println(dFormat.parse(date));
             if(array.length == 3){
                 String date = array[1].replace("\"", "");
                 Date d = dFormat.parse(date);
